@@ -1,0 +1,47 @@
+=== Shortest - All Items ==
+Mycelium, Silverfish Spawn Egg, Jukebox, Chiseled Quartz Block
+Silverfish Spawn Egg, Jukebox, Chiseled Quartz Block, Lime Dye
+Recovery Compass, Jukebox, Fox Spawn Egg, Chiseled Quartz Block
+Silverfish Spawn Egg, Jukebox, Chiseled Quartz Block, Honeycomb
+Silverfish Spawn Egg, Empty Map, Chiseled Quartz Block, Jukebox
+Jukebox, Vex Spawn Egg, Chiseled Quartz Block, Totem of Undying
+Jukebox, Vex Spawn Egg, Block of Amethyst, Chiseled Quartz Block
+Silverfish Spawn Egg, Jukebox, Magenta Dye, Chiseled Quartz Block
+Jungle Log, Vex Spawn Egg, Chiseled Quartz Block, Totem of Undying
+Recovery Compass, Jungle Log, Fox Spawn Egg, Chiseled Quartz Block
+
+=== Shortest - Survival Friendly ===
+Eye of Ender, Chiseled Quartz Block, Stripped Mangrove Wood, Jukebox
+Smooth Quartz Slab, Recovery Compass, Warped Fungus on a Stick, Jukebox
+Recovery Compass, Warped Fungus on a Stick, Smooth Quartz Block, Jukebox
+Totem of Undying, Chiseled Quartz Block, Stripped Mangrove Wood, Jukebox
+Oxeye Daisy, Jungle Fence, Chiseled Quartz Block, Stripped Mangrove Wood
+Smooth Quartz Slab, Warped Fungus on a Stick, Oxeye Daisy, Jungle Leaves
+Smooth Quartz Slab, Warped Fungus on a Stick, Jukebox, Lily of the Valley
+Block of Amethyst, Jukebox, Chiseled Quartz Block, Stripped Mangrove Wood
+Oxeye Daisy, Warped Fungus on a Stick, Jungle Leaves, Smooth Quartz Block
+Warped Fungus on a Stick, Jukebox, Smooth Quartz Block, Lily of the Valley
+
+== Longest - All Items ==
+Chiseled Quartz Block, Infested Mossy Stone Bricks, Jungle Leaves, Waxed Oxidized Cut Copper Slab
+Infested Mossy Stone Bricks, Jungle Leaves, Waxed Oxidized Cut Copper Slab, Smooth Quartz Stairs
+Infested Mossy Stone Bricks, Jungle Leaves, Waxed Oxidized Cut Copper Slab, Smooth Quartz Block
+Chiseled Quartz Block, Waxed Oxidized Cut Copper Slab, Jungle Fence Gate, Muddy Mangrove Roots
+Infested Mossy Stone Bricks, Jungle Leaves, Waxed Oxidized Cut Copper Slab, Smooth Quartz Slab
+Infested Mossy Stone Bricks, Jungle Leaves, Waxed Oxidized Cut Copper Slab, Nether Quartz Ore
+Waxed Oxidized Cut Copper Slab, Smooth Quartz Block, Jungle Fence Gate, Muddy Mangrove Roots
+Chiseled Quartz Block, Jungle Fence Gate, Zombie Villager Spawn Egg, Light Gray Shulker Box
+Nether Quartz, Infested Mossy Stone Bricks, Jungle Leaves, Waxed Oxidized Cut Copper Slab
+Chiseled Quartz Block, Waxed Oxidized Cut Copper Slab, Jungle Fence, Muddy Mangrove Roots
+
+== Longest - Survival Friendly ==
+Waxed Oxidized Cut Copper Slab, Chiseled Quartz Block, Infested Mossy Stone Bricks, Jungle Leaves
+Waxed Oxidized Cut Copper Slab, Infested Mossy Stone Bricks, Jungle Leaves, Smooth Quartz Stairs
+Waxed Oxidized Cut Copper Slab, Infested Mossy Stone Bricks, Jungle Leaves, Smooth Quartz Block
+Waxed Oxidized Cut Copper Slab, Smooth Quartz Slab, Infested Mossy Stone Bricks, Jungle Leaves
+Waxed Oxidized Cut Copper Slab, Jungle Fence Gate, Chiseled Quartz Block, Muddy Mangrove Roots
+Waxed Oxidized Cut Copper Slab, Nether Quartz Ore, Infested Mossy Stone Bricks, Jungle Leaves
+Waxed Oxidized Cut Copper Slab, Jungle Fence Gate, Smooth Quartz Block, Muddy Mangrove Roots
+Waxed Oxidized Cut Copper Slab, Infested Mossy Stone Bricks, Jungle Leaves, Nether Quartz
+Waxed Oxidized Cut Copper Slab, Chiseled Quartz Block, Muddy Mangrove Roots, Jungle Fence
+Waxed Oxidized Cut Copper Slab, Block of Quartz, Jungle Chest Boat, Muddy Mangrove Roots

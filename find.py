@@ -9,6 +9,8 @@ survival_friendly = True
 nether = True
 end = True
 
+num_shuffles = 20000
+
 
 # Not actually used by the general searcher
 def is_pangram(words):
@@ -19,19 +21,19 @@ def is_valid(item):
     keywords, denied = [], []
 
     if survival_friendly:
-        keywords = ["Command", "Infested", "Spawn Egg"]
-        denied = ["Barrier", "Bedrock", "Debug Stick", "Knowledge Book", "Player Head", "Reinforced Deepslate",
-                  "Spawner", "Structure Void"]
+        keywords += ["Command", "Infested", "Spawn Egg"]
+        denied += ["Barrier", "Bedrock", "Debug Stick", "Knowledge Book", "Player Head", "Reinforced Deepslate",
+                   "Spawner", "Structure Void"]
 
     # Some of these items can be obtained without entering the Nether
     # but are extremely challenging and/or unlikely on a random seed
     if not nether:
-        keywords = ["Basalt", "Blackstone", "Blaze", "Crimson", "Nether", "Potion", "Quartz", "Soul", "Warped"]
-        denied = ["Ancient Debris", "Eye of Ender", "Ghast Tear", "Magma Cream"]
+        keywords += ["Basalt", "Blackstone", "Blaze", "Crimson", "Nether", "Potion", "Quartz", "Soul", "Warped"]
+        denied += ["Ancient Debris", "Eye of Ender", "Ghast Tear", "Magma Cream"]
 
     if not end:
-        keywords = ["Chorus", "End ", "Purpur", "Shulker"]
-        denied = ["Dragon Egg", "Elytra"]
+        keywords += ["Chorus", "End ", "Purpur", "Shulker"]
+        denied += ["Dragon Egg", "Elytra"]
 
     if item in denied:
         return False
@@ -47,7 +49,7 @@ with open("items.txt") as file:
 
 
 solutions = set()
-for _ in range(20000):  # Seems to be enough to find every four item solution
+for _ in range(num_shuffles):  # Seems to be enough to find every four item solution
     to_cover = ALPHABET.copy()
     solution = ()
 

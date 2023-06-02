@@ -2,9 +2,22 @@ import random
 
 
 survival_friendly = True
+
+
+def valid(item):
+    if survival_friendly:
+        if item.endswith("Spawn Egg"):
+            return False
+
+        # These used to be legitimately obtainable in survival
+        if item.startswith("Infested"):
+            return False
+
+    return True
+
+
 with open("items.txt") as file:
-    coverings = {frozenset(item.lower()): item for item in file.read().strip("\"").split("\\n") if not survival_friendly
-                 or not item.endswith("Spawn Egg")}  # There might be other items to filter but none mattered
+    coverings = {frozenset(item.lower()): item for item in file.read().strip("\"").split("\\n") if valid(item)}
 
 
 solutions = set()
@@ -28,6 +41,6 @@ for _ in range(20000):  # Seems to be enough to find every four item solution
         solutions.add(frozenset(solution))
 
 
-print(len(solutions))                                        # Change to True to find the longest solutions
-for solution in sorted(solutions, key=lambda s: len("".join(s)), reverse=False)[:10]:
+print(len(solutions))
+for solution in sorted(solutions, key=lambda s: len("".join(s)), reverse=False):
     print(", ".join(solution))

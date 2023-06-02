@@ -6,14 +6,16 @@ ALPHABET = set("abcdefghijklmnopqrstuvwxyz")
 
 # Config options
 survival_friendly = True
-nether = False
+nether = True
 end = False
 
-num_shuffles = 30000
+num_shuffles = 9000
 max_len = 7
 
-custom_keywords = ["Amethyst", "Diamond", "Exposed", "Head", "Jungle", "Mangrove", "Oxidized", "Waxed", "Weathered"]
-custom_deny_list = ["Jukebox", "Mycelium", "Totem of Undying"]
+custom_keywords = ["Amethyst", "Azalea", "Diamond", "Exposed", "Head", "Jungle", "Mangrove", "Oxidized", "Warped",
+                   "Weathered"]
+custom_deny_list = ["Frogspawn", "Jukebox", "Mycelium", "Podzol", "Recovery Compass", "Totem of Undying",
+                    "Twisting Vines", "Weeping Vines"]
 
 
 # Not actually used by the general searcher
@@ -74,5 +76,5 @@ for _ in range(num_shuffles):  # Seems to be enough to find every four item solu
 
 
 print(len(solutions))
-for solution in sorted(solutions, key=lambda s: len("".join(s)), reverse=False):
+for solution in sorted(solutions, key=lambda s: len("".join(s)), reverse=False)[:300]:
     print(", ".join(solution))

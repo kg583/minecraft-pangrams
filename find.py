@@ -12,6 +12,8 @@ end = True
 num_shuffles = 20000
 max_len = 4
 
+custom_deny_list = []
+
 
 # Not actually used by the general searcher
 def is_pangram(words):
@@ -19,7 +21,7 @@ def is_pangram(words):
 
 
 def is_valid(item):
-    keywords, denied = [], []
+    keywords, denied = [], custom_deny_list.copy()
 
     if survival_friendly:
         keywords += ["Command", "Infested", "Spawn Egg"]

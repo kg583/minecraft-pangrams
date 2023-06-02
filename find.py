@@ -27,7 +27,7 @@ def is_valid(item):
     keywords, denied = custom_keywords.copy(), custom_deny_list.copy()
 
     if survival_friendly:
-        keywords += ["Command", "Infested", "Spawn Egg"]
+        keywords += ["Command", "Infested", "Portal", "Spawn Egg"]
         denied += ["Barrier", "Bedrock", "Debug Stick", "Jigsaw Block", "Knowledge Book", "Player Head",
                    "Reinforced Deepslate", "Spawner", "Structure Void"]
 

@@ -6,13 +6,14 @@ ALPHABET = set("abcdefghijklmnopqrstuvwxyz")
 
 # Config options
 survival_friendly = True
-nether = True
-end = True
+nether = False
+end = False
 
 num_shuffles = 20000
-max_len = 4
+max_len = 6
 
-custom_deny_list = []
+custom_keywords = ["Oxidized"]
+custom_deny_list = ["Totem of Undying"]
 
 
 # Not actually used by the general searcher
@@ -21,7 +22,7 @@ def is_pangram(words):
 
 
 def is_valid(item):
-    keywords, denied = [], custom_deny_list.copy()
+    keywords, denied = custom_keywords.copy(), custom_deny_list.copy()
 
     if survival_friendly:
         keywords += ["Command", "Infested", "Spawn Egg"]

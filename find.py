@@ -10,6 +10,7 @@ nether = True
 end = True
 
 num_shuffles = 20000
+max_len = 4
 
 
 # Not actually used by the general searcher
@@ -65,7 +66,7 @@ for _ in range(num_shuffles):  # Seems to be enough to find every four item solu
 
     # And sometimes, the greedy alg is dumb
     # Length 4 is proven optimal in the other file
-    if len(solution) < 5:
+    if len(solution) <= max_len:
         solutions.add(frozenset(solution))
 
 

@@ -9,11 +9,11 @@ survival_friendly = True
 nether = False
 end = False
 
-num_shuffles = 20000
-max_len = 6
+num_shuffles = 30000
+max_len = 7
 
-custom_keywords = ["Oxidized"]
-custom_deny_list = ["Totem of Undying"]
+custom_keywords = ["Amethyst", "Diamond", "Exposed", "Head", "Jungle", "Mangrove", "Oxidized", "Waxed", "Weathered"]
+custom_deny_list = ["Jukebox", "Mycelium", "Totem of Undying"]
 
 
 # Not actually used by the general searcher
@@ -26,8 +26,8 @@ def is_valid(item):
 
     if survival_friendly:
         keywords += ["Command", "Infested", "Spawn Egg"]
-        denied += ["Barrier", "Bedrock", "Debug Stick", "Knowledge Book", "Player Head", "Reinforced Deepslate",
-                   "Spawner", "Structure Void"]
+        denied += ["Barrier", "Bedrock", "Debug Stick", "Jigsaw Block", "Knowledge Book", "Player Head",
+                   "Reinforced Deepslate", "Spawner", "Structure Void"]
 
     # Some of these items can be obtained without entering the Nether
     # but are extremely challenging and/or unlikely on a random seed
